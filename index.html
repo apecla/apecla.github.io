@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="logoapertaclava-removebg-preview.png">
+    <title>Aperta Clava</title>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home"></ion-icon>
+                    </span>
+                    <span class="text">Anasayfa</span>
+                </a>
+            </li>
+    
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="paper"></ion-icon>
+                    </span>
+                    <span class="text">Duyurular</span>
+                </a>
+            </li>
+            
+       
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="business"></ion-icon>
+                    </span>
+                    <span class="text">Hakkımızda</span>
+                </a>
+            </li>
+           
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="call"></ion-icon>
+                    </span>
+                    <span class="text">İletişim</span>
+                </a>
+            </li>
+           
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="card"></ion-icon>
+                    </span>
+                    <span class="text">Bağış</span>
+                </a>
+            </li>
+          
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="remove-circle"></ion-icon>
+                    </span>
+                    <span class="text">Gizlilik</span>
+                </a>
+            </li>
+
+            <div class="indicator"></div>
+           
+        </ul>
+
+    </div>
+
+
+    <div class="container">
+        <h1>Aperta Clava</h1>
+
+    </div>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click', activeLink))
+    </script>
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    
+        
+
+    
+    
+</body>
+</html>
