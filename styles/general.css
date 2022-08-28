@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@1,100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Michroma&family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Michroma&family=Poppins:ital,wght@1,100&display=swap');
+
 
 *
 {
@@ -28,8 +31,8 @@ body
 
 .navigation
 {
-    position: relative;
-    width: 520px;
+    position: sticky;
+    width: 700px;
     height: 75px;
     background: linear-gradient(#F76E11, #FF9F45, #FFBC80);
     display: flex;
@@ -173,15 +176,306 @@ body
     transform: translateX(calc(83.5px * 5));
 }
 
+.navigation ul li:nth-child(7).active ~ .indicator
+{
+    transform: translateX(calc(83.5px * 6));
+}
+
+.navigation ul li:nth-child(8).active ~ .indicator
+{
+    transform: translateX(calc(83.5px * 7));
+}
+
 
 .container h1
 {
     position: absolute;
     top: 25px;
-    left: 50px;
-    font-size: 75px;
+    left: 100px;
+    font-size: 90px;
     color: #FFCC29;
     font-family: 'Aboreto', sans-serif;
     
 
 }
+
+.container p
+{
+    position: absolute;
+    top: 170px;
+    left: 55px;
+    font-size: 30px;
+    color: #fff;
+    
+
+}
+
+#yazı2 p
+{
+    
+    position: absolute;
+    top: 220px;
+    left: 55px;
+    font-size: 30px;
+    color: #fff;
+
+} 
+#yazı3 p
+{
+    
+    position: absolute;
+    top: 270px;
+    left: 55px;
+    font-size: 30px;
+    color: #fff;
+
+} 
+
+#yazı11 p
+{
+    
+    position: absolute;
+    top: 150px;
+    left: 55px;
+    font-size: 23px;
+    color: #fff;
+
+} 
+
+#yazı12 p
+{
+    
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    font-size: 23px;
+    color: #fff;
+
+} 
+#yazı13 p
+{
+    
+    position: absolute;
+    top: 350px;
+    left: 55px;
+    font-size: 23px;
+    color: #fff;
+
+} 
+#yazı14 p
+{
+    
+    position: absolute;
+    top: 450px;
+    left: 55px;
+    font-size: 23px;
+    color: #fff;
+
+} 
+#yazı15 p
+{
+    
+    position: absolute;
+    top: 550px;
+    left: 55px;
+    font-size: 23px;
+    color: #fff;
+
+} 
+.container img
+{
+    position: absolute;
+    width: 45%;
+    justify-content: center;
+    top: 140px;
+    left: 840px;
+    border: 2.5px solid #FFBC80;
+
+}
+
+.container #btn1
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 250px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11);
+
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+   
+    border: transparent;
+}
+
+.container #btn2
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 330px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn3
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 410px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11);
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    border: transparent;
+}
+
+.container #btn4
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 490px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn5
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 350px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn6
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 430px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn10
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 270px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn11
+{
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 350px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+#img2 img
+{
+    position: absolute;
+    width: 36%;
+    justify-content: center;
+    top: 140px;
+    left: 970px;
+    border: 2.5px solid #FFBC80;
+
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(#FFCC29, #ee943f);
+    text-align: center;
+   
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    font-weight: 500;
+  
+    
+    
+  }
+
+  .footer h3
+  {
+    color: #000;
+    text-align: center;
+   
+    font-size: 50px;
+    font-family: 'Aboreto', sans-serif;
+   
+    font-weight: 500;
+  }
+
+
+
+  .footer h5{
+    color: #000;
+    text-align: center;
+   
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+  
+   
+    font-weight: 500;
+  
+
+  }
+

@@ -1,0 +1,66 @@
+.info p
+{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Michroma', sans-serif;
+}
+.team{
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10vh 30vh;
+    top: 150px;
+    left: 100px;
+}
+
+.teamRow{
+    min-width: 300px;
+    align-items: center;
+    flex-direction: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    padding: 20px 20px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    width: 230px;
+}
+.card a{
+    padding: 15px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F76E11;
+    color: rgb(0, 0, 0);
+   
+}
+.card p{
+    font-weight: 200;
+    margin: 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.card img
+{
+    width: 100%;
+    border: 5px solid #F76E11;
+}
+
+.team h1{
+   
+    font-family: 'Aboreto', cursive;
+    color: #FFCC29;
+    text-align: center;
+}
