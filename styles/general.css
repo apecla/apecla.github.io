@@ -282,6 +282,17 @@ body
     color: #fff;
 
 } 
+
+#yazı26 p
+{
+    
+    position: absolute;
+    top: 150px;
+    left: 55px;
+    font-size: 36px;
+    color: #fff;
+
+} 
 .container img
 {
     position: absolute;
@@ -421,6 +432,102 @@ body
     border: transparent;
 }
 
+.container #btn20
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 220px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn21
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 280px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn22
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 340px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn23
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 400px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn24
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 460px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 21px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
+.container #btn25
+{
+    position: absolute;
+    width: 800px;
+    height: 45px;
+    top: 520px;
+    left: 20px;
+    background: linear-gradient(to left, #F76E11, #FF9F45,#FF9F45,#F76E11 );
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: var(--clr);
+    
+    border: transparent;
+}
+
 #img2 img
 {
     position: absolute;
@@ -428,6 +535,18 @@ body
     justify-content: center;
     top: 140px;
     left: 970px;
+    border: 2.5px solid #FFBC80;
+
+}
+
+#img3 img
+{
+    position: absolute;
+    width: 678px;
+    height: 435px;
+    justify-content: center;
+    top: 130px;
+    left: 850px;
     border: 2.5px solid #FFBC80;
 
 }
